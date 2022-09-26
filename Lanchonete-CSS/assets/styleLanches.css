@@ -1,0 +1,53 @@
+/*Próprio estilo css - Exercício 6*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 187, 97);
+}
+
+header {
+    background-color: rgba(255, 236, 206, 24);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+}
+
+.lancheImg {
+    border-radius: 15px;
+    min-width: 250px;
+    width: 250px;
+    max-width: 250px;
+    min-height: 150px;
+    height: 150px;
+    max-height: 150px;
+    margin-right: 60px;
+}
+
+.infoLanche {
+    width: 80%;
+    display: flexbox;
+    flex-direction: line;
+}
+
+.infoLanche > p {
+    width: 30%;
+    padding: 5px;
+    font-weight: bolder;
+}
